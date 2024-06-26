@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  width: 100%;
+  height: 90px;
+  background-color: #3367d6;
+  gap: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.app-logo {
+  width: 130px;
+  margin-left: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  border: 1px solid #ececec;
+  color: #64748b;
+}
+
+.search-icon {
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.input-container {
+  width: 450px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.historyList-container {
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 7px 16px 0px #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.time {
+  margin-right: 10px;
+  color: #8e8e8e;
+}
+
+.domain-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.title-domain {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.domain {
+  color: #8e8e8e;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+.empty-history {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #8e8e8e;
+}
